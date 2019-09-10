@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">E5dem Badnek</string>
+    <string name="title_activity_sign_in">Sign_in</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_">menu_</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Anis Housseini</string>
+    <string name="nav_header_subtitle">anishouseini@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Exercices</string>
+    <string name="menu_gallery">Nutrition</string>
+    <string name="menu_tools">Parameters</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="ACTIVITY_LEVEL">
+        <item>LIGHT</item>
+        <item>MODERATE</item>
+        <item>EXTREME</item>
+    </string-array>
+</resources>

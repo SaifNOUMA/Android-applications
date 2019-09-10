@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e5dembadnek">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".triceps"></activity>
+        <activity android:name=".Macros" />
+        <activity android:name=".Nutrition" />
+        <activity android:name=".shoulders" />
+        <activity android:name=".legs" />
+        <activity android:name=".forearm" />
+        <activity android:name=".chest" />
+        <activity android:name=".calves" />
+        <activity android:name=".biceps" />
+        <activity android:name=".back" />
+        <activity android:name=".abs" />
+        <activity
+            android:name=".menu_"
+            android:label="@string/title_activity_menu_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Exercices" />
+        <activity android:name=".Sign_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sign_UP" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
